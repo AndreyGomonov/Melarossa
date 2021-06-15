@@ -3,7 +3,7 @@ public class Solution {
         Person person1 = new Person("Andrey", 23);
         Person person2 = new Person ();
 
-        person2.talk(person2.getFullName());
-        person1.move(person1.getFullName());
+        person2.talk();
+        person1.move();
     }
 }
